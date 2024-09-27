@@ -92,11 +92,15 @@ img {
 
 .footer {
     background-color: #782221;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 20px 0;
 }
 
 .texte {
     padding: 0 20px 0 20px;
     margin: 0;
+    text-align: justify;
 }
 
 
@@ -114,4 +118,15 @@ img {
   }
   .colorpolice {
       color: white;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 15%;
+    text-align: center;
+    justify-content: space-around;
+    box-shadow: #782221;
+    
+    
   }
