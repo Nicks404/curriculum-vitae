@@ -1,43 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon CV</title>
-    <link rel="icon" href="#">
-    <link rel="stylesheet" href="../assets/css/style.css">
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Mon CV</title>
+            <link rel="stylesheet" href="../assets/css/style.css">
+            <link rel="icon" href="../image/favicon/favicon-16x16.png">
+            <!--police titre-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+            <!--police contenus-->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
 </head>
-<body>
+<body class="lato-thin">
     <!--en-tête--> 
-        <header class="contener">
+        <header class="container">
                 <figure>
                     <img alt="ma photo" src="../image/photoprofile/profile.jpg">
                 </figure> 
-            <div class="profile">                        
-                    <h1>John DOE</h1>
-                    <p>Développeur web junior</p>
-            </div> 
 
-                <div class="info"> 
+                <div class="profile colorpolice">                        
+                        <h1>John DOE</h1>
+                        <p>Développeur web junior</p>
+                </div> 
 
-                            <ul class="flex-row">  
-                               <li><a href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8745908,-0.7546614,16.75z/data=!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746303!4d-0.7520296!16s%2Fg%2F11c1fvm555?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D" 
-                                      target="_blank">12 Rue des Oliviers<br>53200 La Roche-Neuville</a></li>    
-                               <li><a href="mailto:John.Doe@gmail.com" target="_blank">John.Doe@gmail.com</a></li>                                             
-                               <li><a href="tel:+33606060606">0606060606</a></li>                               
-                            </ul>
+                <div class="info "> 
+                    <div class="flex-row">  
+                        <a class="italic colorpolice" href="https://www.google.fr/maps/place/12+Rue+des+Oliviers,+53200+La+Roche-Neuville/@47.8745908,-0.7546614,16.75z/data=!4m6!3m5!1s0x4808f12c7939a8a7:0xaefceff0de598651!8m2!3d47.8746303!4d-0.7520296!16s%2Fg%2F11c1fvm555?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D" 
+                          target="_blank">12 Rue des Oliviers<br>53200 La Roche-Neuville</a>    
+                        <a class="italic colorpolice" href="mailto:John.Doe@gmail.com" target="_blank">John.Doe@gmail.com</a>                                           
+                        <a class="italic colorpolice" href="tel:+33606060606">0606060606</a>                               
+                    </div>
                 </div>
         </header>
-        <main>
+    <!--bloc central-->
+        <div class="bloc">
+                    <aside class="aside">
+                                <span class="padding2">
+                                    <h1 class="couleurs2">A propos</h1>
+                                </span>                  
+                                     <p class="texte colorpolice">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vestibulum a ligula in pharetra. Pelleentesque viverra semper nibhut eleifend. In id est magna. Nunc ultrices nisi id sem mollis, sed sagittis lorem pellentesque. fusce vitea malesuada ex. Quisque scelerisque risus turquis, vitea vulputate sapien aliquet quis. </p>
+                                <span class="padding2">
+                                    <h1 class="couleurs2" >Langues parlées</h1>
+                                </span>
+                                <ul>
+                                    <li class="colorpolice">Français-Langue maternelle</li>
+                                    <li class="colorpolice">Anglais-Intermédiaire</li>
+                                    <li class="colorpolice">Espagnol-débutant</li>
+                                </ul>
+                                <span class="padding2">
+                                    <h1 class="couleurs2" >Centre d'interêt</h1>
+                                </span>
+                                    <ul>
+                                        <li class="colorpolice">Chant</li>
+                                        <li class="colorpolice">Fitness</li>
+                                        <li class="colorpolice">Randonnée</li>
+                                        <li class="colorpolice">Voyanges</li>
+                                    </ul>
+                    </aside>
 
-
-        </main>
-        <footer>
+                    <main id="main">
+                                <section class="padding">      
+                                        <h1 class="couleurs">Expérience proféssionnelles</h1>                                    
+                                        <p><span class="bold">Intitulé du poste chez Nom de l'entreprise</span></p>
+                                        <p>Du XXX au XXX</p>
+                                        <ul>                             
+                                            <li>Mission 1...</li>
+                                            <li>Mission 2...</li>
+                                            <li>Mission 3...</li>        
+                                        </ul>
+                                        <p><span class="bold">Intitulé du poste chez Nom de l'entreprise</span></p>
+                                        <p>Du XXX au XXX</p>
+                                        <ul>                             
+                                            <li>Mission 1...</li>
+                                            <li>Mission 2...</li>
+                                            <li>Mission 3...</li>
+                                            <li>Mission 4...</li>        
+                                        </ul>
+                                        <p><span class="bold">Intitulé du poste chez Nom de l'entreprise</span></p>
+                                        <p>Du XXX au XXX</p>
+                                        <ul>                             
+                                            <li>Mission 1...</li>
+                                            <li>Mission 2...</li>
+                                    
+                                </section>
             
-        </footer>
+
+
+                                <section class="padding">
+                                    
+                                    <h1 class="couleurs">Diplômes/Formations</h1>                                   
+                                    <p><span class="bold">Diplôme/Formation n°2</p></span>
+                                    <p>Du XXX au XXX</p>
+                                    <p>Nom de l'école</p>
+
+                                    <p><span class="bold">Diplôme/Formation n°2</p></span>
+                                    <p>Du XXX au XXX</p>
+                                    <p>Nom de l'école</p>
+                                </section>
+
+                                <section class="padding">
+                                    
+                                        <h1 class="couleurs">Compétences</h1>         
+                                   
+                                    <ul>
+                                        <li>HTML 5 - Expert</li>
+                                        <li>CSS 3 - Intérmédiaire</li>
+                                        <li>Github - Débutant</li>
+                                        <li>...</li>
+                                    </ul>
+                                </section>
+                    </main>
+        </div>
+
+        
+    
+<footer class="footer">
     
 
+        </footer>
 
 
 </body>
+
 </html>
